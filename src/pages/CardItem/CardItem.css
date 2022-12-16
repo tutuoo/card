@@ -1,0 +1,71 @@
+.intros {
+	position: relative;
+	padding-top: 770px;
+	width: 828px;
+	height: 1480px;
+	background: url("./card_bg.png") no-repeat center center;
+	background-size: 828px 1480px;
+}
+
+.name2city {
+	padding-left: 40px;
+	width: 580px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: absolute;
+	left: 0px;
+	top: 540px;
+}
+
+.name2cityItem {
+	text-align: right;
+	font-weight: bolder;
+	font-size: 30px;
+	margin-bottom: 6px;
+}
+
+.name2city .key {
+	font-weight: bold;
+	color: #a6c6e4;
+}
+
+.name2city .val {
+	font-weight: bold;
+	color: #3d74b5;
+}
+.introItem {
+	padding-left: 140px;
+	padding-right: 100px;
+	width: 780px;
+	margin-bottom: 35px;
+}
+
+.cardItem {
+	width: 100%;
+	/* margin-bottom: 2px; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(153, 185, 206);
+}
+
+.introContent {
+	word-break: break-all;
+	font-size: 22px;
+	color: #05296c;
+	font-weight: bold;
+}
+
+.introItem .title {
+	font-size: 22px;
+	font-weight: bolder;
+	margin-bottom: 12px;
+	color: rgb(170, 197, 212);
+}
+
+.avatar {
+	border-radius: 24px;
+	width: 180px;
+	height: 180px;
+}
